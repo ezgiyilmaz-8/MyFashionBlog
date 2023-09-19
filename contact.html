@@ -1,0 +1,152 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My First Professional Web Site">
+    <meta name="author" content="Ezgi Yılmaz">
+
+    <title>FASHION - Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <script src="https://kit.fontawesome.com/353db7146e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/blog.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="image/logo-fashion.jpg"></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><i class="fa-solid fa-bars"></i></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--- Main section --->
+    <section id="contactSlider" class="slider">
+        <div id="contactCaption" class="caption">
+            <p>Do you want to communicate with us ?</p>
+        </div>
+    </section>
+
+    <!-- Gallery section --->
+    <section id="gallery" class="sectionArea">
+        <div class="galleryTop">
+            <h2 class="galleryHeader">GALLERY</h1>
+        </div>
+        <div class="galleryBody">
+            <div class="container">
+                <div class="gallerySlider">
+                    <div class="gallerySliderItem">
+                        <img src="image/contact4.png">
+                        <img src="image/contact5.png">
+                        <img src="image/contact3.png">
+                        <img src="image/contact6.png">
+                        <img src="image/contact7.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--- Form section --->
+    <section id="contact" class="sectionArea">
+        <div class="contactBody">
+            <div class="container">
+                <div class="wrapper">
+                    <form class="contactForm">
+                        <div class="formItem">
+                            <span class="formShape">
+                                <i class="fa fa-user fa-2x"></i></span>
+                                <input class="formField" type="text" placeholder="Full Name" required>
+                        </div>
+                        <div class="formItem">
+                            <span class="formShape">
+                                <i class="fa fa-envelope fa-2x"></i></span>
+                                <input class="formField" type="email" placeholder="E-mail" required>
+                        </div>
+                        <div class="formItem">
+                            <span class="formShape">
+                                <i class="fa-solid fa-cake-candles fa-2x"></i></span>
+                                <input class="formField" id="birthday" name="birthday" type="date" placeholder="Country/City">
+                        </div>
+                        <div class="formItem">
+                            <span class="formShape">
+                                <i class="fa-solid fa-venus-mars fa-2x"></i></span>
+                                <select id="gender" name="gender">
+                                    <option selected disabled>Gender</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                        </div>
+                        <div class="formItem">
+                            <span class="formShape">
+                                <i class="fa fa-mobile-phone fa-2x"></i></span>
+                                <input class="formField" type="text" placeholder="Phone">
+                        </div>
+                        <div class="formItem">
+                            <span class="formShape">
+                                <i class="fa fa-info fa-2x"></i></span>
+                                <input class="formField" type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="formItem">
+                            <span class="formShape">
+                                <i class="fa fa-comment fa-2x"></i></span>
+                                <textarea class="formField" rows="8" placeholder="Message"></textarea>
+                        </div>
+                        <div class="formItem">
+                            <a id="submitBtn" href="#"><i class="fa-solid fa-arrow-pointer"></i>SUBMIT</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--- Footer section --->
+    <footer class="sectionArea">
+        <div class="container">
+            <div class="col3">
+                <div class="footerItem">
+                    <h3 class="title1">WELCOME TO OUR SITE</h3>
+                    <p>Fashions fade, <br>
+                        style is eternal.</p>
+                </div>
+            </div>
+            <div class="col3">
+                <div class="footerItem">
+                    <h3 class="title2">QUICK LINKS</h3>
+                    <ul class="footerLinks">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col3">
+                <div class="footerItem">
+                    <h3 class="title3">BE SOCIAL WITH US </h3>
+                    <ul class="socialLinks">
+                        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://tr-tr.facebook.com/login/device-based/regular/login/?login_attempt=1"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoidHIifQ%3D%3D%22%7D"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
